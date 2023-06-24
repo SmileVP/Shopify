@@ -188,7 +188,7 @@ function App() {
                       <button
                         className="btn btn-outline-dark mt-auto"
                         onClick={() => {
-                          setCount(++count);
+                          setCount(--count);
                           setToggle3(!toggle3);
                         }}
                       >
